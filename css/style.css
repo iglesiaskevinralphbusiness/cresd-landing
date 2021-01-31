@@ -124,3 +124,95 @@ INSIGHTS
     color: #000;
     font-size: 15px;
 }
+
+/* ----------------------------------
+COMMITMENT
+------------------------------------*/
+.sec-commitment {
+    height: 446px;
+    background-image: url(../img/bg-commitment.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.sec-commitment .wrap {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec-commitment h2 {
+    margin-bottom: 20px;
+    color: #f7f7f7;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+.sec-commitment p {
+    margin-bottom: 60px;
+    color: #f7f7f7;
+    font-size: 24px;;
+    text-align: center;
+}
+.sec-commitment a {
+    display: block;
+    width: 182px;
+    padding: 17px 0 16px;
+    color: #f7f7f7;
+    font-size: 17.97px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+/* ----------------------------------
+EVENTS
+------------------------------------*/
+.sec-events {
+    padding: 49px 0 39px;
+    background-color: #ebebeb;
+}
+.sec-events h2 {
+    color: #000;
+    font-size: 34px;
+}
+.sec-events .sub {
+    margin-bottom: 22px;
+    color: #000;
+    font-size: 15px;
+}
+
+
+/* ----------------------------------
+EVENTS
+------------------------------------*/
+footer {
+    height: 97px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: #707070;
+}
+footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer .call-txt {
+    font-size: 14px;
+    color: #fff;
+}
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social p {
+    font-size: 14px;
+    color: #fff;
+}
+footer .social ul {
+    display: flex;
+}
+footer .social ul li {
+    padding-left: 10px;
+}
