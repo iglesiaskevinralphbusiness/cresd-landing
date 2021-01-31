@@ -16,10 +16,10 @@ body {
     margin: auto;
 }
 .pc {
-    display: block;
+    display: block !important;
 }
 .sp {
-    display: none;
+    display: none !important;
 }
 
 /* ----------------------------------
@@ -395,6 +395,37 @@ footer .social ul {
 footer .social ul li {
     padding-left: 10px;
 }
+footer .buttons {
+    padding-bottom: 10px;
+}
+footer .buttons.cols {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .buttons.cols li {
+    width: 48.5%;
+}
+footer .buttons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38.5px;
+    margin-bottom: 7.5px;
+    background-color: #eaecee;
+    color: #707070;
+    font-size: 12px;
+    font-family: InterstateBold;
+    text-decoration: unset;
+}
+footer .sitelink {
+    color: #193989;
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -408,13 +439,12 @@ MOBILE
         box-sizing: border-box;
     }
     .pc {
-        display: none;
+        display: none !important;
     }
     .sp {
-        display: block;
+        display: block !important;
     }
-    header,
-    footer {
+    header {
         display: none;
     }
 
@@ -527,7 +557,7 @@ MOBILE
 
 
     .sec-events {
-        padding: 30px 0;
+        padding: 30px 0 20px;
     }
     .sec-events h2 {
         font-size: 24px;;
@@ -611,5 +641,17 @@ MOBILE
         color: transparent;
         background-color: unset;
         border: none;
+    }
+
+    .endlogo {
+        text-align: center;
+    }
+    .endlogo img {
+        width: 46px;
+        padding-top: 20px;
+    }
+    footer {
+        height: auto;
+        background-color: #ccc;
     }
 }
