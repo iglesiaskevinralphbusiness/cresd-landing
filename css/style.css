@@ -16,7 +16,7 @@ body {
     margin: auto;
 }
 .pc {
-    display: block !important;
+    display: block;
 }
 .sp {
     display: none !important;
@@ -90,6 +90,7 @@ header nav ul li a:link {
 BANNER
 ------------------------------------*/
 .sec-banner {
+    position: relative;
     height: 525px;
     background-image: url(../img/bg-banner.jpg);
     background-repeat: no-repeat;
@@ -444,8 +445,41 @@ MOBILE
     .sp {
         display: block !important;
     }
+
     header {
-        display: none;
+      height: unset;
+      border: none;
+    }
+    header .wrap {
+        padding: 0 13.5px;
+    }
+    header .menu-container {
+        display: flex;
+        align-items: center;
+    }
+    header .sp-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 42px;
+    }
+    header .sp-menu, 
+    header .sp-menu-bar {
+        width: 19px;
+        height: 16px;
+    }
+    header .sp-menu-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header .sp-menu .sp-menu-bar span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #193989;
     }
 
 
