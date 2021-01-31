@@ -504,15 +504,27 @@ MOBILE
         margin-bottom: 11px;
         font-size: 20px;
     }
+    .slider-events .box .content {
+        width: 60vw;
+        box-shadow: 0px -4px 9px -7px #000;
+    }
     .slider-events .date {
+        width: 58px;
+        height: 53px;
         background-color: #fff;
         color: #008c82;
     }
     .slider-events .date:before {
         border-right: 13px solid #c3c3c3;
     }
+    .slider-events .date .month {
+        font-size: 11px;;
+    }
+    .slider-events .date .day {
+        font-size: 22px;;
+    }
     .slider-events .box .info {
-        padding: 85px 24px 33px;
+        padding: 54px 22px 18px;
     }
     .slider-events .desc {
         margin-bottom: 16px;
@@ -524,5 +536,10 @@ MOBILE
     .slider-events .address p {
         font-size: 14px;
         color: #707070;
+    }
+    .slider-events .button a {
+        width: 122px;
+        height: 29px;
+        font-size: 12px;
     }
 }
