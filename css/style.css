@@ -78,3 +78,32 @@ header nav ul li a:link {
     font-size: 19.47px;
     text-decoration: none;
 }
+
+/* ----------------------------------
+BANNER
+------------------------------------*/
+.sec-banner {
+    height: 525px;
+    background-image: url(../img/bg-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #518abd;
+}
+.sec-banner .wrap {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sec-banner h2 {
+    margin-bottom: 20px;
+    color: #f7f7f7;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+.sec-banner p {
+    color: #fff;
+    font-size: 36px;;
+}
