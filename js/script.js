@@ -18,4 +18,15 @@ $(document).ready(function() {
             },
         ],
     });
+
+    $('.sp-menu-bar').click(function(e){
+        e.preventDefault();
+        if($('.fix-menu').hasClass('hide')){
+            $('.fix-menu').removeClass('hide');
+            $('body').css('overflow','hidden');
+        } else {
+            $('.fix-menu').addClass('hide');
+            $('body').removeAttr('style');
+        }
+    });
 });

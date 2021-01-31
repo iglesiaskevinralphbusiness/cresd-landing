@@ -396,18 +396,18 @@ footer .social ul {
 footer .social ul li {
     padding-left: 10px;
 }
-footer .buttons {
+.buttons {
     padding-bottom: 10px;
 }
-footer .buttons.cols {
+.buttons.cols {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-footer .buttons.cols li {
+.buttons.cols li {
     width: 48.5%;
 }
-footer .buttons li a {
+.buttons li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -419,7 +419,7 @@ footer .buttons li a {
     font-family: InterstateBold;
     text-decoration: unset;
 }
-footer .sitelink {
+.sitelink {
     color: #193989;
     font-size: 12px;
     border-bottom: 1px solid #000;
@@ -463,9 +463,12 @@ MOBILE
         align-items: center;
         width: 100%;
         height: 42px;
+        padding-left: 16px;
     }
     header .sp-menu, 
     header .sp-menu-bar {
+        min-width: 19px;
+        min-height: 16px;
         width: 19px;
         height: 16px;
     }
@@ -481,6 +484,64 @@ MOBILE
         border-radius: 10px;
         background-color: #193989;
     }
+    header .fix-menu {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        background-color: #000000a3;
+    }
+    header .fix-menu.hide {
+        display: none;
+    }
+    header .fix-menu .contents {
+        background-color: #fff;
+    }
+    header .fix-menu .contents .wrap {
+        display: block;
+        padding: 15px 30px 20px;
+    }
+    header .fix-menu .fix-menu-bar {
+        height: 46px;
+        background-color: #eaecee;
+    }
+    header .fix-menu .fix-menu-bar .wrap {
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+    header .fix-menu .sp-logo {
+        padding-left: 17px;
+    }
+    header .fix-menu .fix-menu-bar .sp-menu-bar {
+        position: relative;
+        min-width: 17px;
+        min-height: 17px;
+        width: 17px;
+        height: 17px;
+    }
+    header .fix-menu .fix-menu-bar .sp-menu-bar:before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: -1px;
+        width: 120%;
+        height: 2px;
+        background-color: #d81e05;
+        transform: rotate(45deg);
+    }
+    header .fix-menu .fix-menu-bar .sp-menu-bar:after {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: -1px;
+        width: 120%;
+        height: 2px;
+        background-color: #d81e05;
+        transform: rotate(-45deg);
+    }
 
 
     .sec-banner {
@@ -491,7 +552,7 @@ MOBILE
     }
     .sec-banner h2 {
         position: relative;
-        width: 80%;
+        width: 200px;
         margin-bottom: 29px;
         font-size: 30px;
     }
