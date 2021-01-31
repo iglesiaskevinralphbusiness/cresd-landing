@@ -7,10 +7,74 @@ body {
     width: 100%;
     font-size: 12px;
     color: #fff;
-    font-family: MyriadPro;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
 }
 .wrap {
-    max-width: 1111px;
+    max-width: 1296px;
     width: 100%;
     margin: auto;
+}
+
+/* ----------------------------------
+HEADER
+------------------------------------*/
+header {
+    height: 160px;
+    border-bottom: 23px solid #001254;
+}
+header .wrap {
+    display: flex;
+}
+header h1 {
+    padding-right: 33px;;
+}
+header .logo-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+header .logo-container .logo-img {
+    position: relative;
+    bottom: -12px;
+    width: 170px;
+    height: 160px;
+    margin-right: 36px;
+    background-color: #fff;
+    text-align: center;
+}
+header .logo-container .logo-txt {
+    border-right: 2px solid #ccc;
+    padding-right: 48px;;
+    margin-bottom: 25px;
+}
+header .logo-container .logo-txt .title {
+    display: block;
+    color: #193989;
+    font-size: 53.95px;
+    font-family: InterstateBold;
+    font-weight: bold;
+    line-height: 0.8;
+}
+header .logo-container .logo-txt .sub {
+    display: block;
+    color: #009bfa;
+    font-size: 20.39px;
+    font-family: InterstateBold;
+}
+header nav {
+    width: 100%;
+    height: 127px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+}
+header nav ul li a:link {
+    padding: 0 15px;
+    color: #000;
+    font-size: 19.47px;
+    text-decoration: none;
 }
