@@ -124,6 +124,7 @@ INSIGHTS
 .sec-insights {
     padding: 49px 0 39px;
     background-color: #ebebeb;
+    overflow: hidden;
 }
 .sec-insights h2 {
     color: #000;
@@ -249,6 +250,7 @@ EVENTS
 .sec-events {
     padding: 49px 0 39px;
     background-color: #ebebeb;
+    overflow: hidden;
 }
 .sec-events h2 {
     color: #000;
@@ -468,6 +470,45 @@ MOBILE
         color: #ccd1e4;
     }
 
+    .slider-insights .box .content {
+        width: 60vw;
+        height: unset;
+        padding: 15px;
+    }
+    .slider-insights .box {
+        transform: scaleY(0.8);
+    }
+    .slider-insights .box.slick-active {
+        transform: scaleY(1);
+    }
+    .slider-insights .box .content .img  {
+        height: 172px;
+    }
+    .slider-insights .box .content .img:before {
+        top: -82px;
+        left: -18px;
+    }
+    .slider-insights .box .content .img:after {
+        bottom: -62px;
+        right: -42px;
+    }
+    .slider-insights .box .content .title {
+        font-size: 20px;
+    }
+    .slider-insights .content.slide1 {
+        border-bottom: 5px solid #1450d2;
+    }
+    .slider-insights .content.slide2 {
+        border-bottom: 5px solid #01a49c;
+    }
+    .slider-insights .content.slide3 {
+        border-bottom: 5px solid #009bfa;
+    }
+    .slider-insights .slick-list,
+    .slider-events .slick-list {
+        width: 100vw;
+    }
+
 
     .sec-commitment {
         height: 286px;
@@ -507,6 +548,12 @@ MOBILE
     .slider-events .box .content {
         width: 60vw;
         box-shadow: 0px -4px 9px -7px #000;
+    }
+    .slider-events .box {
+        transform: scaleY(0.8);
+    }
+    .slider-events .box.slick-active {
+        transform: scaleY(1);
     }
     .slider-events .date {
         width: 58px;
