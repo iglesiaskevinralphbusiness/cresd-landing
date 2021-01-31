@@ -11,6 +11,7 @@ body {
 }
 .wrap {
     max-width: 1296px;
+    min-width: 1296px;
     width: 100%;
     margin: auto;
 }
@@ -124,9 +125,6 @@ INSIGHTS
     color: #000;
     font-size: 15px;
 }
-.slider-insights {
-
-}
 .slider-insights .box {
     padding: 10px;
 }
@@ -232,6 +230,7 @@ COMMITMENT
     text-align: center;
     text-decoration: none;
     border: 1px solid #fff;
+    font-family: InterstateBold;
 }
 
 /* ----------------------------------
@@ -250,6 +249,105 @@ EVENTS
     color: #000;
     font-size: 15px;
 }
+.slider-events .box {
+    padding: 28px 10px 10px;
+}
+.slider-events .box .content {
+    position: relative;
+    width: 100%;
+    background-color: #1450d2;
+    box-sizing: border-box;
+}
+.slider-events .box .info {
+    padding: 88px 24px 48px;
+}
+.slider-events .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -17px;
+    left: 30px;
+    width: 93px;
+    height: 86px;
+    background-color: #001254;
+}
+.slider-events .date:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -11px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 13px solid #3b4e96;
+    transform: rotate(225deg);
+    color: #fff;
+    font-family: Interstate;
+}
+.slider-events .date .month {
+    font-size: 16.25px;
+}
+.slider-events .date .day {
+    font-size:36px;
+    font-weight: bold;
+}
+.slider-events h3 {
+    margin-bottom: 3px;
+    color: #f7f7f7;
+    font-size: 28px;
+    font-weight: bold;
+}
+.slider-events .desc {
+    height: 34px;
+    margin-bottom: 23px;
+    color: #f7f7f7;
+    font-size: 15px;
+}
+.slider-events .button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 182px;
+    height: 48px;
+    color: #f7f7f7;
+    font-size: 17.97px;
+    font-family: InterstateBold;
+    text-decoration: none;
+    border: 1px solid #f7f7f7;
+}
+.slider-events .address {
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    height: 51px;
+    margin-left: 24px;
+    padding-right: 24px;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+.slider-events .address:before {
+    content: '';
+    position: absolute;
+    top: -75px;
+    left: -27px;
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    border-right: 70px solid #1450d2;
+    transform: rotate(45deg);
+}
+.slider-events .address p {
+    color: #000;
+    font-size: 24px;
+    font-family: InterstateBold;
+}
+
+
 
 
 /* ----------------------------------

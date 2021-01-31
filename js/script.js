@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.slider-insights').slick({
+    $('.slider-insights, .slider-events').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
