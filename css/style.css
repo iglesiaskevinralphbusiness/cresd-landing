@@ -433,7 +433,7 @@ footer .social ul li {
 /* ----------------------------------
 MOBILE
 ------------------------------------*/
-@media only screen and (max-device-width: 640px){
+@media screen and (max-width: 768px) {
     .wrap {
         min-width: unset;
         padding: 0 30px;
